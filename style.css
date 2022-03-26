@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-size: 18px;
+    position: absolute;
+    border: 16px double #fff1c4;
+    border-radius: 88px;
+    align-items: center;
+    z-index: 50;
+}
+.nav__link{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 88px;
+}
+.nav__link:hover{
+    text-decoration: underline;
+}
+.nav__link:nth-child(odd){
+    background-color: #fff1c4;
+}
